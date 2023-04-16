@@ -2,13 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 
 * {
-    box-sizing: border-box;
-}
-
-body {
     font-family: 'Roboto', sans-serif;
 }
 
 .content {
     padding: 1rem;
+}
+
+ol.pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
