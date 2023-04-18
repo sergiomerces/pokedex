@@ -35,6 +35,7 @@
 
 .pokemon .name {
     color: #ffffff;
+    margin-bottom: 0;
 }
 
 .pokemon .detail {
